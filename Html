@@ -1,0 +1,71 @@
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="M.css" />
+<title>Responsive Blog Layout</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="article">
+      <img src="image1.jpeg" alt="Article 1 Image">
+      <h2>Fruits and Vegetables</h2>
+      <p>The term “fruit” has several meanings. To a botanist, it means the part of a plant that contains seeds. According to this definition, fruits include most nuts, as well as vegetables, such as cucumbers and tomatoes.
+
+        To most of us, though, “fruit” is defined as the soft, edible, seed-bearing part of a perennial plant. A perennial is a plant that lives for more than one growing season. Fresh fruits are rich in carbohydrates, vitamins, minerals, and fiber. They can be preserved by freezing, canning, or drying.
+        
+        Different fruits grow in different climates, and may not grow well in climates that are too cold, hot, dry, or wet. Based on the kind of climate in which they grow, fruits can be classified in different groups: temperate fruits, subtropical fruits, and tropical fruits.
+        
+        Temperate fruits grow best where there is a well-defined cold season, as in the U.S. states of Washington and Oregon. Temperate fruits include apples, berries, grapes, pears, plums, and peaches.
+        
+        </p>
+    </div>
+    <div class="article">
+      <img src="image2.jpeg" alt="Article 2 Image">
+      <h2>Milk and Dairy</h2>
+      <p>Much of the world’s milk, cream, butter, yogurt, and cheese come from dairy cows. However, goats, camels, reindeer, sheep, yaks, and water buffalo supply milk products as well.
+
+In much of Asia, people have traditionally consumed “milk” made from soybeans. Soy milk is made from soaking and grinding soybeans with water. Soy milk contains about the same protein as cow’s milk.
+
+Milk and dairy products supply proteins, carbohydrates, fats, and essential vitamins and minerals. The Maasai people of East Africa use milk as a staple food, and it constitutes a huge part of their diet. Yogurt, a fermented milk product, is a staple food in parts of the Middle East and India.</p>
+    </div>
+    <div class="article">
+      <img src="image3.jpeg" alt="Article 3 Image">
+      <h2>Legumes and cereals</h2>
+      <p>Legumes are plants that are raised for their edible seeds or seed pods. Peas, lima beans, soybeans, peanuts, and lentils are all legumes. Legumes that are harvested for their dry seeds, such as beans or lentils, are called pulses. Pulses are food staples in India and Pakistan.
+
+        Legumes and pulses contain high amounts of protein. In addition, they supply iron, other minerals, and vitamins.
+        
+        The term “meat” usually refers to the edible flesh of mammals, such as cattle, pigs, and sheep. Meat is a high-protein food and is rich in other nutrients, as well.
+        
+        The United States, Australia, Russia, and Argentina raise much of the world’s beef cattle. Beef can come from cows, bulls, or steers. Cows are adult female cattle. Bulls are adult male cattle capable of reproduction. Steers are adult male cattle that have been castrated, or been made incapable of reproduction. Meat from very young cattle, or calves, is called veal.</p>
+    </div>
+    </div>
+</body>
+</html>
+CSS CODE
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blueviolet;
+  }
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display:flex;
+  }
+   .article {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: px;
+  }
+  .article img {
+    max-width: 50%;
+    height: fit-content;
+  }
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
